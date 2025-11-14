@@ -1,79 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Personagens — Supernatural (Fã Site)</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personagens — Sobrenatural</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <header class="site-header">
-        <div class="header-inner">
-            <a class="logo" href="index.html">Supernatural</a>
-            <nav class="main-nav">
-                <a href="index.html" class="nav-link">Início</a>
-                <a href="personagens.html" class="nav-link active">Personagens</a>
-                <a href="viloes.html" class="nav-link">Vilões</a>
-            </nav>
-        </div>
-    </header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">SOBRENATURAL</a>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="personagens.html" class="active">Personagens</a></li>
+          <li><a href="viloes.html">Vilões</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main class="container">
-        <section class="section-header">
-            <h1>Personagens Principais</h1>
-            <p>Abra a página de cada personagem para ver história, objetivos e imagens.</p>
-        </section>
+  <main class="container">
+    <section class="characters-intro">
+      <h1>Personagens Principais</h1>
+      <p>Abaixo estão as páginas individuais com história, características e objetivos.</p>
 
-        <section class="people-grid">
-            <article class="person-card">
-                <img src="images/dean.jpg" alt="Dean Winchester" />
-                <h3>Dean Winchester</h3>
-                <p>O irmão mais velho — protetor, sarcástico e profundamente leal à família.</p>
-                <div class="card-actions">
-                    <a class="btn small" href="dean.html">Ver Perfil</a>
-                </div>
-            </article>
+      <div class="character-grid">
+        <article class="character-card">
+          <img src="images/dean.jpg" alt="Dean Winchester">
+          <h3>Dean Winchester</h3>
+          <p>Caçador, leal e protetor.</p>
+          <a href="dean.html" class="btn small">Abrir</a>
+        </article>
 
-            <article class="person-card">
-                <img src="images/sam.jpg" alt="Sam Winchester" />
-                <h3>Sam Winchester</h3>
-                <p>Mais introspectivo, busca respostas e soluções racionais para o sobrenatural.</p>
-                <div class="card-actions">
-                    <a class="btn small" href="sam.html">Ver Perfil</a>
-                </div>
-            </article>
+        <article class="character-card">
+          <img src="images/sam.jpg" alt="Sam Winchester">
+          <h3>Sam Winchester</h3>
+          <p>Pesquisador, empático e determinado.</p>
+          <a href="sam.html" class="btn small">Abrir</a>
+        </article>
 
-            <article class="person-card">
-                <img src="images/castiel.jpg" alt="Castiel" />
-                <h3>Castiel</h3>
-                <p>Anjo rebelde que forma um vínculo inesperado com os irmãos.</p>
-                <div class="card-actions">
-                    <a class="btn small" href="castiel.html">Ver Perfil</a>
-                </div>
-            </article>
+        <article class="character-card">
+          <img src="images/castiel.jpg" alt="Castiel">
+          <h3>Castiel</h3>
+          <p>Anjo, enigmático e dedicado.</p>
+          <a href="castiel.html" class="btn small">Abrir</a>
+        </article>
 
-            <article class="person-card">
-                <img src="images/bobby.jpg" alt="Bobby Singer" />
-                <h3>Bobby Singer</h3>
-                <p>Mentor, pesquisador e figura paterna para os Winchester.</p>
-                <div class="card-actions">
-                    <a class="btn small" href="bobby.html">Ver Perfil</a>
-                </div>
-            </article>
-        </section>
+        <article class="character-card">
+          <img src="images/crowley.jpg" alt="Crowley">
+          <h3>Crowley</h3>
+          <p>Rei do Inferno, manipulador.</p>
+          <a href="crowley.html" class="btn small">Abrir</a>
+        </article>
 
-        <section class="notes">
-            <h3>Como as páginas estão organizadas</h3>
-            <p>Cada página individual contém: biografia, trajetória na série, principais objetivos, relações e uma galeria de imagens.</p>
-        </section>
-    </main>
+        <article class="character-card">
+          <img src="images/bobby.jpg" alt="Bobby Singer">
+          <h3>Bobby Singer</h3>
+          <p>Mentor e pesquisador veterano.</p>
+          <a href="bobby.html" class="btn small">Abrir</a>
+        </article>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <p>Voltar ao <a href="index.html">Início</a></p>
-        </div>
-    </footer>
+        <article class="character-card">
+          <img src="images/mary.jpg" alt="Mary Winchester">
+          <h3>Mary Winchester</h3>
+          <p>Mãe e caçadora — legado familiar.</p>
+          <a href="mary.html" class="btn small">Abrir</a>
+        </article>
+      </div>
+    </section>
+  </main>
 
-    <script src="scripts.js"></script>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>&copy; 2025 — Personagens</small>
+    </div>
+  </footer>
 </body>
 </html>
