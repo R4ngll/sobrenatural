@@ -10,6 +10,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 100);
 
     // ==========================
+    // TRECHO NOVO — Links de personagens
+    // ==========================
+
+    const characterLinks = document.querySelectorAll(".character-link");
+    characterLinks.forEach(link => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const characterPage = link.getAttribute('href');
+            window.location.href = characterPage;
+        });
+    });
+
+    // ==========================
     // DROPDOWN CORRIGIDO
     // ==========================
 
