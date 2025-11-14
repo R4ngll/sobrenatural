@@ -1,46 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supernatural Series</title>
-
-    <!-- CSS PRINCIPAL -->
-    <link rel="stylesheet" href="styles.css">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sobrenatural — Universo & Personagens</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">SOBRENATURAL</a>
+      <nav class="main-nav" id="mainNav">
+        <button id="navToggle" class="nav-toggle" aria-label="Abrir menu">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="personagens.html">Personagens</a></li>
+          <li><a href="viloes.html">Vilões</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <h1 class="site-title">Supernatural Series</h1>
+  <main class="site-main">
+    <section class="hero">
+      <div class="hero-inner container">
+        <h1>Bem-vindo ao universo <span>Sobrenatural</span></h1>
+        <p class="tagline">Caçadores, anjos, demônios e destinos — uma jornada entre o mundo humano e o além.</p>
+        <div class="hero-cta">
+          <a href="#sobre" class="btn">Saiba mais</a>
+          <a href="personagens.html" class="btn ghost">Personagens</a>
+        </div>
+      </div>
+      <div class="hero-decor"></div>
+    </section>
 
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="characters.html" class="menu-link character-page-btn">Personagens</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <section id="sobre" class="about container">
+      <h2>História da série</h2>
+      <p>
+        <strong>Sobrenatural</strong> narra a trajetória de dois irmãos que viajam pelos Estados Unidos enfrentando
+        ameaças sobrenaturais — monstros, demônios, anjos e lendas urbanas. A série mistura casos isolados
+        ("monster of the week") com arcos mitológicos que envolvem pactos, artefatos e batalhas celestiais.
+      </p>
 
-    <main>
-        <section id="intro" class="intro-section">
-            <h2>Bem-vindo ao Mundo de Supernatural</h2>
+      <div class="two-col">
+        <div>
+          <h3>Contexto inicial</h3>
+          <p>
+            Após a perda de sua mãe em circunstâncias misteriosas, os irmãos foram criados por um pai caçador.
+            Cresceram aprendendo sobre o oculto, armas e rituais, e assumiram a missão de proteger inocentes.
+          </p>
+        </div>
+        <div>
+          <h3>Evolução da mitologia</h3>
+          <p>
+            Ao longo das temporadas, seres como anjos, demônios, death, anciões e entidades cósmicas revelam-se
+            essenciais para a narrativa. A série explora temas como destino, livre-arbítrio e sacrifício.
+          </p>
+        </div>
+      </div>
+    </section>
 
-            <p>
-                Explore a longa jornada dos irmãos Winchester enquanto enfrentam
-                demônios, anjos, monstros e forças que vão além da compreensão humana.
-            </p>
+    <section id="principais" class="container">
+      <h2>Personagens principais</h2>
+      <p>Conheça os personagens centrais e seus objetivos pessoais.</p>
 
-            <a href="characters.html" class="btn-personagens character-page-btn">Ver Personagens</a>
-        </section>
-    </main>
+      <div class="grid features-grid">
+        <article class="card">
+          <img src="images/dean-thumb.jpg" alt="Dean" class="thumb">
+          <h3>Dean Winchester</h3>
+          <p>Objetivo: Proteger a família e impedir que o mal cause danos humanos — mesmo que isso exija sacrifícios.</p>
+          <a href="dean.html" class="btn small">Ver página</a>
+        </article>
 
-    <footer>
-        <p>&copy; 2025 Supernatural Series Fan Site</p>
-    </footer>
+        <article class="card">
+          <img src="images/sam-thumb.jpg" alt="Sam" class="thumb">
+          <h3>Sam Winchester</h3>
+          <p>Objetivo: Entender e, quando possível, consertar as injustiças do mundo sobrenatural usando pesquisa e razão.</p>
+          <a href="sam.html" class="btn small">Ver página</a>
+        </article>
 
-    <script src="script.js"></script>
+        <article class="card">
+          <img src="images/castiel-thumb.jpg" alt="Castiel" class="thumb">
+          <h3>Castiel</h3>
+          <p>Objetivo: Proteger a Terra ao mesmo tempo que aprende o significado de livre-arbítrio e humanidade.</p>
+          <a href="castiel.html" class="btn small">Ver página</a>
+        </article>
 
+        <article class="card">
+          <img src="images/crowley-thumb.jpg" alt="Crowley" class="thumb">
+          <h3>Crowley</h3>
+          <p>Objetivo: Manter e aumentar seu poder no submundo, manipulando alianças e explorando fraquezas humanas.</p>
+          <a href="crowley.html" class="btn small">Ver página</a>
+        </article>
+
+        <article class="card">
+          <img src="images/bobby-thumb.jpg" alt="Bobby" class="thumb">
+          <h3>Bobby Singer</h3>
+          <p>Objetivo: Apoiar os irmãos com conhecimento prático e táticas, mantendo vivo o legado dos caçadores.</p>
+          <a href="bobby.html" class="btn small">Ver página</a>
+        </article>
+
+        <article class="card">
+          <img src="images/mary-thumb.jpg" alt="Mary" class="thumb">
+          <h3>Mary Winchester</h3>
+          <p>Objetivo: Proteger a família e reconciliar escolhas do passado que influenciam a próxima geração.</p>
+          <a href="mary.html" class="btn small">Ver página</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="galeria" class="gallery container">
+      <h2>Galeria</h2>
+      <div class="grid gallery-grid">
+        <figure><img src="images/hero-1.jpg" alt="Cena 1"><figcaption>Na estrada</figcaption></figure>
+        <figure><img src="images/hero-2.jpg" alt="Cena 2"><figcaption>Investigação</figcaption></figure>
+        <figure><img src="images/hero-3.jpg" alt="Cena 3"><figcaption>Batalha</figcaption></figure>
+        <figure><img src="images/hero-4.jpg" alt="Cena 4"><figcaption>Relíquia</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="contato" class="container contact">
+      <h2>Contato</h2>
+      <p>Site de fã — use imagens com permissão dos detentores dos direitos.</p>
+      <form id="contactForm" class="contact-form" onsubmit="return false;">
+        <label>
+          Nome
+          <input type="text" id="nameInput" placeholder="Seu nome">
+        </label>
+        <label>
+          Mensagem
+          <textarea id="messageInput" placeholder="Sua mensagem"></textarea>
+        </label>
+        <div class="form-actions">
+          <button id="sendBtn" class="btn">Enviar</button>
+          <button id="resetBtn" type="button" class="btn ghost">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>&copy; 2025 — Site de fã sobre Sobrenatural</small>
+      <nav class="footer-nav">
+        <a href="index.html">Início</a>
+        <a href="personagens.html">Personagens</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
