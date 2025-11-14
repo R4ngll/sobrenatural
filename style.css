@@ -1,0 +1,177 @@
+/* --------------------------------------------- */
+/* RESET E BASE */
+/* --------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to bottom, #000000, #1a1a1a, #333, #4a4a4a);
+    color: #e6e6e6;
+    line-height: 1.7;
+}
+
+/* --------------------------------------------- */
+/* HEADER */
+/* --------------------------------------------- */
+
+.main-header {
+    background: linear-gradient(to right, #000, #222, #111);
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 2px solid #555;
+}
+
+.main-header h1 {
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.main-header p {
+    font-size: 22px;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+/* --------------------------------------------- */
+/* MENU */
+/* --------------------------------------------- */
+
+.navbar {
+    background: linear-gradient(to right, #111, #222, #333);
+    padding: 15px 0;
+    border-bottom: 1px solid #444;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px white;
+}
+
+/* --------------------------------------------- */
+/* SEÇÕES */
+/* --------------------------------------------- */
+
+.section {
+    padding: 70px 80px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.gray-section {
+    background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+.section h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* --------------------------------------------- */
+/* OBJETIVOS */
+/* --------------------------------------------- */
+
+.objectives-list {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.objectives-list li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* --------------------------------------------- */
+/* PERSONAGENS */
+/* --------------------------------------------- */
+
+.personagens-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    background: linear-gradient(to bottom, #1a1a1a, #2c2c2c, #3a3a3a);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #555;
+    box-shadow: 0 0 10px #000;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #444;
+}
+
+.card h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* --------------------------------------------- */
+/* RODAPÉ */
+/* --------------------------------------------- */
+
+.footer {
+    background: #000;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 2px solid #444;
+}
+
+.footer p {
+    color: #888;
+}
+
+/* --------------------------------------------- */
+/* RESPONSIVIDADE */
+/* --------------------------------------------- */
+
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 20px;
+    }
+
+    .main-header h1 {
+        font-size: 40px;
+    }
+}
