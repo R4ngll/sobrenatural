@@ -1,119 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Supernatural — Fã Site</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="description" content="Site sobre a série Supernatural: história, personagens, vilões e objetivos.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrenatural - Universo da Série</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="site-header">
-        <div class="header-inner">
-            <a class="logo" href="index.html">Supernatural</a>
-            <nav class="main-nav">
-                <a href="index.html" class="nav-link">Início</a>
-                <a href="personagens.html" class="nav-link">Personagens</a>
-                <a href="viloes.html" class="nav-link">Vilões</a>
-                <a href="#" class="nav-link" id="open-about">Sobre a Série</a>
-            </nav>
-        </div>
+
+    <header>
+        <h1>Sobrenatural - Universo Completo</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#">Personagens</a>
+                    <ul class="submenu">
+
+                        <!-- WINCHESTERS -->
+                        <li><a href="sam.html">Sam Winchester</a></li>
+                        <li><a href="dean.html">Dean Winchester</a></li>
+                        <li><a href="john.html">John Winchester</a></li>
+                        <li><a href="mary.html">Mary Winchester</a></li>
+
+                        <!-- ALIADOS -->
+                        <li><a href="castiel.html">Castiel</a></li>
+                        <li><a href="crowley.html">Crowley</a></li>
+                        <li><a href="bobby.html">Bobby Singer</a></li>
+                        <li><a href="jack.html">Jack Kline</a></li>
+                        <li><a href="ellen.html">Ellen Harvelle</a></li>
+                        <li><a href="jo.html">Jo Harvelle</a></li>
+                        <li><a href="charlie.html">Charlie Bradbury</a></li>
+
+                        <!-- PRINCIPAIS VILÕES -->
+                        <li><a href="lilith.html">Lilith</a></li>
+                        <li><a href="azazel.html">Azazel</a></li>
+                        <li><a href="lucifer.html">Lúcifer</a></li>
+                        <li><a href="abaddon.html">Abaddon</a></li>
+                        <li><a href="metatron.html">Metatron</a></li>
+                        <li><a href="amaraa.html">Amara - A Escuridão</a></li>
+                        <li><a href="michael.html">Miguel</a></li>
+                        <li><a href="gabriel.html">Gabriel</a></li>
+
+                    </ul>
+                </li>
+
+                <li><a href="viloes.html">Vilões</a></li>
+                <li><a href="historia.html">História da Série</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="container">
-        <section class="hero">
-            <div class="hero-inner">
-                <h1>Supernatural</h1>
-                <p class="subtitle">Caçadores, anjos e demônios — a luta entre o bem e o mal em uma estrada sem fim.</p>
-                <div class="hero-actions">
-                    <a class="btn" href="personagens.html">Conheça os Personagens</a>
-                    <a class="btn ghost" href="viloes.html">Os Vilões</a>
-                </div>
-            </div>
-            <div class="hero-decor">
-                <div class="sigil sigil-left"></div>
-                <div class="sigil sigil-right"></div>
-            </div>
-        </section>
+    <section class="hero">
+        <h2>Bem-vindo ao Universo Sobrenatural</h2>
+        <p>Conheça a história completa, personagens marcantes, vilões lendários e todo o universo da série que marcou gerações.</p>
+    </section>
 
-        <section class="about-preview">
-            <h2>Resumo da História</h2>
-            <p>
-                Supernatural acompanha os irmãos Winchester — Dean e Sam — enquanto viajam pelos Estados Unidos em busca de monstros, demônios e anjos.
-                Misturando horror, drama e humor, a série explora histórias sobrenaturais independentes e um arco maior sobre destino, família e escolhas.
-            </p>
-            <div class="about-grid">
-                <article>
-                    <h3>Origem</h3>
-                    <p>O caminho dos irmãos começa após a morte da mãe — um evento que molda suas vidas e os leva a se tornarem caçadores. Ao longo das temporadas,
-                       descobrem segredos sobre anjos, céu, inferno e entidades ainda mais antigas.</p>
-                </article>
-                <article>
-                    <h3>Temas</h3>
-                    <p>Laços familiares, culpa, redenção e livre-arbítrio são temas recorrentes. A série mistura mitologias clássicas com folclore americano.</p>
-                </article>
-                <article>
-                    <h3>Estilo</h3>
-                    <p>Humor sarcástico, episódios folclóricos e batalhas épicas com efeitos visuais; tudo permeado por uma trilha sonora rock clássica.</p>
-                </article>
-            </div>
-        </section>
+    <section class="conteudo">
+        <h2>Sobre a Série</h2>
 
-        <section class="featured">
-            <h2>Destaques</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="images/road-placeholder.jpg" alt="Estrada" />
-                    <h4>A Estrada</h4>
-                    <p>A famosa Impala e a estrada aberta são cenário e personagem — símbolo da jornada dos Winchester.</p>
-                </div>
-                <div class="card">
-                    <img src="images/sigil-placeholder.jpg" alt="Símbolo" />
-                    <h4>Runas e Símbolos</h4>
-                    <p>Sigilos, círculos protetores e rituais são elementos centrais do arsenal de caça.</p>
-                </div>
-                <div class="card">
-                    <img src="images/angel-placeholder.jpg" alt="Anjo" />
-                    <h4>Anjos e o Céu</h4>
-                    <p>Personagens celestiais alteram o equilíbrio entre o céu e o inferno e colocam os irmãos em rota de colisão com o destino.</p>
-                </div>
-            </div>
-        </section>
+        <p>
+            Sobrenatural (Supernatural) acompanha os irmãos Winchester — Sam e Dean — enquanto caçam criaturas, demônios, fantasmas e entidades sobrenaturais. 
+            A série mistura terror, drama, ação e elementos religiosos, explorando temas como destino, família e livre-arbítrio.
+        </p>
 
-        <section class="callout">
-            <div>
-                <h3>Quer explorar mais?</h3>
-                <p>Vá para a aba <strong>Personagens</strong> para abrir a página individual de cada um, com histórico, objetivos e imagens.</p>
-            </div>
-            <div>
-                <button class="btn" onclick="location.href='personagens.html'">Ver Personagens</button>
-            </div>
-        </section>
-    </main>
+        <p>
+            Ao longo de 15 temporadas, a série apresentou um universo complexo com anjos, demônios, deuses antigos, ceifadores, 
+            viajantes do tempo e até representações da própria Morte.  
+        </p>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <p>Feito por fã — conteúdo baseado na série <em>Supernatural</em>. Substitua imagens em /images/ por fotos de alta qualidade.</p>
-            <small>© Fã Site • Estrutura demonstrativa</small>
-        </div>
+        <h2>Explore o Conteúdo</h2>
+        <p>Use o menu acima para navegar entre personagens, vilões e a história completa da série.</p>
+    </section>
+
+    <footer>
+        <p>Site criado para fãs de Supernatural • Desenvolvido com HTML, CSS e JavaScript</p>
     </footer>
 
-    <!-- Modal "Sobre" -->
-    <div id="modal-about" class="modal">
-        <div class="modal-content">
-            <button class="modal-close" id="close-about">&times;</button>
-            <h2>História da Série — Resumo Expandido</h2>
-            <p>
-                Desde o piloto, Supernatural equilibra episódios case-of-the-week com arcos maiores: demônios e contratos, anjos e guerras celestiais,
-                sombras ancestrais e criaturas do folclore. A jornada dos irmãos envolve sacrifícios, escolhas que mudam o universo e batalhas que colocam
-                o amor fraternal contra forças sobrenaturais.
-            </p>
-            <p>
-                A série também apresenta diversas "linhas temporais" e consequências de alterar o destino — sempre voltando à pergunta: o que fazemos por amor?
-            </p>
-        </div>
-    </div>
+    <script src="script.js"></script>
 
-    <script src="scripts.js"></script>
 </body>
 </html>
